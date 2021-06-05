@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Dancing";
+  src: url(/Fonts.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.imagem {
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.login {
+  margin-left: -150px;
+  margin-top: 9%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid;
+  border-color: rgb(202, 202, 202);
+  height: 400px;
+  padding: 0;
+  width: 100px;
+}
+
+.imagem_logo {
+  display: block;
+  margin: 30px auto;
+  color: rgb(0, 0, 0);
+
+  font-family: fantasy;
+}
+
+.input {
+  text-align: left;
+  display: block;
+  margin: 1% auto;
+  width: 80%;
+  height: 3em; /* 35px = 1rem */
+  font-size: 12px;
+  padding-left: 10px;
+  border: 1px solid;
+  border-color: rgb(180, 179, 179);
+}
+
+.input:focus {
+  border: 1px solid;
+  border-color: rgb(180, 179, 179);
+}
+
+.btn {
+  display: block;
+  background-color: rgb(137, 183, 214);
+  color: white;
+  height: 35px;
+  width: 80%;
+  font-size: 14px;
+  margin: 5% auto;
+  margin-bottom: 30px;
+}
+
+div.titulo {
+  height: 1px;
+  margin: 40px;
+  background-color: rgb(180, 179, 179);
+  text-align: center;
+}
+
+div.titulo span {
+  background-color: white;
+  position: relative;
+  top: -0.5em;
+  padding: 0 10px;
+}
+
+.facebook {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.facebook_icone {
+  height: 1rem;
+  margin-top: -2px;
+  margin-right: 7px;
+}
+
+.senha {
+  margin-top: 2px;
+  padding-bottom: 30px;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.senha:hover {
+  text-decoration: none;
+}
+
+.cadastro {
+  padding: 5px 0;
+  text-align: center;
+  border: 1px solid;
+  border-color: rgb(202, 202, 202);
+}
+
+.texto1 {
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.texto2 {
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.aplicativo {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.icone1 {
+  display: block;
+  float: left;
+  width: 47%;
+  height: 30%;
+}
+
+.icone2 {
+  display: block;
+  float: right;
+  width: 47%;
+  height: 30%;
+}
